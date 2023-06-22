@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap");
+
+body {
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 40px;
+}
+
+p {
+  padding: 10px;
+  color: rgb(121, 123, 124);
+  font-size: 10px;
+}
+
+button {
+  background-color: rgb(20, 20, 20);
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-color: rgba(221, 221, 221, 0.37);
+  color: rgba(221, 221, 221, 0.39);
+  font-size: 10px;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.container .img:hover .img-card,
+.container .img:hover .img-plus {
+  border: 2px solid #ffffff;
+}
+
+.container .img .img-card {
+  width: 110px;
+  height: 110px;
+  border-radius: 5px;
+}
+
+.container .img .img-plus {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  border-radius: 40px;
+}
+
+.container .container-button {
+  width: 120px;
+}
+
+.container-button:hover {
+  border: 3px solid #ffffff81;
+  color: #ffffff;
+}
+
+.plus-text {
+  width: 150px;
+  height: 10px;
+  padding-top: 40px;
+  margin-right: 80px;
+}
+
+p:hover {
+  color: #ffffff;
+}
